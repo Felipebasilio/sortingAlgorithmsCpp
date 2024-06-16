@@ -20,8 +20,7 @@ void quickSort(std::vector<int>& arr, int low, int high) {
     // pi é índice de particionamento, arr[pi] está no lugar certo
     int pi = partition(arr, low, high);
 
-    // Separadamente classificar elementos antes
-    // e depois do particionamento
+    // Separadamente classificar elementos antes e depois do particionamento
     quickSort(arr, low, pi - 1);
     quickSort(arr, pi + 1, high);
   }

@@ -1,15 +1,15 @@
 #include <vector>
 
 void bubbleSort(std::vector<int>& arr) {
-  int n = arr.size();
+  int arraySize = arr.size();
   bool swapped;
   
-  for (int i = 0; i < n - 1; i++) {
+  for (int firstCounter = 0; firstCounter < arraySize - 1; firstCounter++) {
     swapped = false;
-    for (int j = 0; j < n - i - 1; j++) {
-      if (arr[j] > arr[j + 1]) {
+    for (int secondCounter = 0; secondCounter < arraySize - firstCounter - 1; secondCounter++) {
+      if (arr[secondCounter] > arr[secondCounter + 1]) {
         // Troca os elementos
-        std::swap(arr[j], arr[j + 1]);
+        std::swap(arr[secondCounter], arr[secondCounter + 1]);
         swapped = true;
       }
     }

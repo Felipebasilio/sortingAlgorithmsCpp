@@ -1,17 +1,17 @@
 #include <vector>
 
 void selectionSort(std::vector<int>& arr) {
-    int n = arr.size();
+    int arraySize = arr.size();
 
-    for (int i = 0; i < n - 1; i++) {
-        int min_idx = i;
+    for (int firstCounter = 0; firstCounter < arraySize - 1; firstCounter++) {
+        int min_idx = firstCounter;
 
-        for (int j = i + 1; j < n; j++) {
-            if (arr[j] < arr[min_idx]) {
-                min_idx = j;
+        for (int secondCounter = firstCounter + 1; secondCounter < arraySize; secondCounter++) {
+            if (arr[secondCounter] < arr[min_idx]) {
+                min_idx = secondCounter;
             }
         }
 
-        std::swap(arr[i], arr[min_idx]);
+        std::swap(arr[firstCounter], arr[min_idx]);
     }
 }

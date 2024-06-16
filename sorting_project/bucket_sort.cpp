@@ -2,17 +2,18 @@
 #include <algorithm>
 
 void bucketSort(std::vector<int>& arr) {
-  int max = *max_element(arr.begin(), arr.end());
-  int min = *min_element(arr.begin(), arr.end());
-  int bucketSize = max - min + 1; // tamanho do balde
+  int maxValue = *max_element(arr.begin(), arr.end());
+  int minValue = *min_element(arr.begin(), arr.end());
+  int bucketSize = maxValue - minValue + 1; // tamanho do balde
 
   std::vector<std::vector<int>> bucket(bucketSize);
 
   for (int i = 0; i < arr.size(); i++) {
-    int bi = (arr[i] - min) / bucketSize; // Índice no balde
-    bucket[bi].push_back(arr[i]);
+    int bucketIndex = (arr[i] - minValue) / bucketSize; // Índice no balde
+    bucket[bucketIndex].push_back(arr[i]);
   }
 
+  // Sort genérico de cada balde
   for (auto& b : bucket) {
     std::sort(b.begin(), b.end());
   }
