@@ -48,7 +48,6 @@ void printArray(const std::vector<int>& arr) {
 // Função para medir tempo de execução de uma função de ordenação
 template <typename Func>
 void measureSort(Func sortFunc, std::vector<int>& arr, const std::string& sortName, int size, const std::string& caseType) {
-  std::vector<int> copy = arr; // Cópia do array para não alterar o original
   struct timeval start, end;
   gettimeofday(&start, NULL);
   sortFunc(); // Executa a função de ordenação
@@ -56,7 +55,7 @@ void measureSort(Func sortFunc, std::vector<int>& arr, const std::string& sortNa
   long timeTaken = (end.tv_sec - start.tv_sec) * 1000000 + end.tv_usec - start.tv_usec;
   std::cout << sortName << " - Size: " << size << ", Case: " << caseType << ", Time: " << timeTaken << " microseconds." << std::endl;
   std::cout << "Sorted Array: ";
-  printArray(copy); // Imprime o array após a ordenação
+  printArray(arr); // Imprime o array após a ordenação
 }
 
 
