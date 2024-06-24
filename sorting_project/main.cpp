@@ -77,15 +77,27 @@ int main() {
     for (int i = 0; i < 3; i++) {
       std::string caseType = i == 0 ? "Sorted" : (i == 1 ? "Reverse Sorted" : "Random");
 
-      measureSort([&]() { bubbleSort(testCases[i]); }, testCases[i], "Bubble Sort", size, caseType);
-      measureSort([&]() { insertionSort(testCases[i]); }, testCases[i], "Insertion Sort", size, caseType);
-      measureSort([&]() { selectionSort(testCases[i]); }, testCases[i], "Selection Sort", size, caseType);
-      measureSort([&]() { shellSort(testCases[i]); }, testCases[i], "Shell Sort", size, caseType);
-      measureSort([&]() { countingSort(testCases[i]); }, testCases[i], "Counting Sort", size, caseType);
-      measureSort([&]() { bucketSort(testCases[i]); }, testCases[i], "Bucket Sort", size, caseType);
-      measureSort([&]() { radixSort(testCases[i]); }, testCases[i], "Radix Sort", size, caseType);
-      measureSort([&]() { mergeSort(testCases[i], 0, testCases[i].size() - 1); }, testCases[i], "Merge Sort", size, caseType);
-      measureSort([&]() { quickSort(testCases[i], 0, testCases[i].size() - 1); }, testCases[i], "Quick Sort", size, caseType);
+      // Criar uma cópia fresca do vetor de teste para cada ordenação
+      std::vector<int> copyForSort;
+
+      copyForSort = testCases[i];
+      measureSort([&]() { bubbleSort(copyForSort); }, testCases[i], "Bubble Sort", size, caseType);
+      copyForSort = testCases[i];
+      measureSort([&]() { insertionSort(copyForSort); }, testCases[i], "Insertion Sort", size, caseType);
+      copyForSort = testCases[i];
+      measureSort([&]() { selectionSort(copyForSort); }, testCases[i], "Selection Sort", size, caseType);
+      copyForSort = testCases[i];
+      measureSort([&]() { shellSort(copyForSort); }, testCases[i], "Shell Sort", size, caseType);
+      copyForSort = testCases[i];
+      measureSort([&]() { countingSort(copyForSort); }, testCases[i], "Counting Sort", size, caseType);
+      copyForSort = testCases[i];
+      measureSort([&]() { bucketSort(copyForSort); }, testCases[i], "Bucket Sort", size, caseType);
+      copyForSort = testCases[i];
+      measureSort([&]() { radixSort(copyForSort); }, testCases[i], "Radix Sort", size, caseType);
+      copyForSort = testCases[i];
+      measureSort([&]() { mergeSort(copyForSort, 0, testCases[i].size() - 1); }, testCases[i], "Merge Sort", size, caseType);
+      copyForSort = testCases[i];
+      measureSort([&]() { quickSort(copyForSort, 0, testCases[i].size() - 1); }, testCases[i], "Quick Sort", size, caseType);
     }
   }
 
