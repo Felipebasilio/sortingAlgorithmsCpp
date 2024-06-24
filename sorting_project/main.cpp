@@ -81,23 +81,23 @@ int main() {
       std::vector<int> copyForSort;
 
       copyForSort = testCases[i];
-      measureSort([&]() { bubbleSort(copyForSort); }, testCases[i], "Bubble Sort", size, caseType);
+      measureSort([&]() { bubbleSort(copyForSort); }, copyForSort, "Bubble Sort", size, caseType);
       copyForSort = testCases[i];
-      measureSort([&]() { insertionSort(copyForSort); }, testCases[i], "Insertion Sort", size, caseType);
+      measureSort([&]() { insertionSort(copyForSort); }, copyForSort, "Insertion Sort", size, caseType);
       copyForSort = testCases[i];
-      measureSort([&]() { selectionSort(copyForSort); }, testCases[i], "Selection Sort", size, caseType);
+      measureSort([&]() { selectionSort(copyForSort); }, copyForSort, "Selection Sort", size, caseType);
       copyForSort = testCases[i];
-      measureSort([&]() { shellSort(copyForSort); }, testCases[i], "Shell Sort", size, caseType);
+      measureSort([&]() { shellSort(copyForSort); }, copyForSort, "Shell Sort", size, caseType);
       copyForSort = testCases[i];
-      measureSort([&]() { countingSort(copyForSort); }, testCases[i], "Counting Sort", size, caseType);
+      measureSort([&]() { countingSort(copyForSort); }, copyForSort, "Counting Sort", size, caseType);
       copyForSort = testCases[i];
-      measureSort([&]() { bucketSort(copyForSort); }, testCases[i], "Bucket Sort", size, caseType);
+      measureSort([&]() { bucketSort(copyForSort); }, copyForSort, "Bucket Sort", size, caseType);
       copyForSort = testCases[i];
-      measureSort([&]() { radixSort(copyForSort); }, testCases[i], "Radix Sort", size, caseType);
+      measureSort([&]() { radixSort(copyForSort); }, copyForSort, "Radix Sort", size, caseType);
       copyForSort = testCases[i];
-      measureSort([&]() { mergeSort(copyForSort, 0, testCases[i].size() - 1); }, testCases[i], "Merge Sort", size, caseType);
+      measureSort([&]() { mergeSort(copyForSort, 0, copyForSort.size() - 1); }, copyForSort, "Merge Sort", size, caseType);
       copyForSort = testCases[i];
-      measureSort([&]() { quickSort(copyForSort, 0, testCases[i].size() - 1); }, testCases[i], "Quick Sort", size, caseType);
+      measureSort([&]() { quickSort(copyForSort, 0, copyForSort.size() - 1); }, copyForSort, "Quick Sort", size, caseType);
     }
   }
 

@@ -1,89 +1,89 @@
 Bubble Sort - Size: 25, Case: Sorted, Time: 0 microseconds.
 Insertion Sort - Size: 25, Case: Sorted, Time: 1 microseconds.
-Selection Sort - Size: 25, Case: Sorted, Time: 4 microseconds.
+Selection Sort - Size: 25, Case: Sorted, Time: 2 microseconds.
 Shell Sort - Size: 25, Case: Sorted, Time: 1 microseconds.
-Counting Sort - Size: 25, Case: Sorted, Time: 7 microseconds.
-Bucket Sort - Size: 25, Case: Sorted, Time: 24 microseconds.
-Radix Sort - Size: 25, Case: Sorted, Time: 7 microseconds.
-Merge Sort - Size: 25, Case: Sorted, Time: 33 microseconds.
-Quick Sort - Size: 25, Case: Sorted, Time: 38 microseconds.
+Counting Sort - Size: 25, Case: Sorted, Time: 6 microseconds.
+Bucket Sort - Size: 25, Case: Sorted, Time: 16 microseconds.
+Radix Sort - Size: 25, Case: Sorted, Time: 5 microseconds.
+Merge Sort - Size: 25, Case: Sorted, Time: 24 microseconds.
+Quick Sort - Size: 25, Case: Sorted, Time: 4 microseconds.
 
-Bubble Sort - Size: 25, Case: Reverse Sorted, Time: 6 microseconds.
-Insertion Sort - Size: 25, Case: Reverse Sorted, Time: 4 microseconds.
-Selection Sort - Size: 25, Case: Reverse Sorted, Time: 5 microseconds.
+Bubble Sort - Size: 25, Case: Reverse Sorted, Time: 4 microseconds.
+Insertion Sort - Size: 25, Case: Reverse Sorted, Time: 2 microseconds.
+Selection Sort - Size: 25, Case: Reverse Sorted, Time: 4 microseconds.
 Shell Sort - Size: 25, Case: Reverse Sorted, Time: 2 microseconds.
-Counting Sort - Size: 25, Case: Reverse Sorted, Time: 7 microseconds.
-Bucket Sort - Size: 25, Case: Reverse Sorted, Time: 20 microseconds.
-Radix Sort - Size: 25, Case: Reverse Sorted, Time: 6 microseconds.
-Merge Sort - Size: 25, Case: Reverse Sorted, Time: 33 microseconds.
-Quick Sort - Size: 25, Case: Reverse Sorted, Time: 5 microseconds.
+Counting Sort - Size: 25, Case: Reverse Sorted, Time: 5 microseconds.
+Bucket Sort - Size: 25, Case: Reverse Sorted, Time: 14 microseconds.
+Radix Sort - Size: 25, Case: Reverse Sorted, Time: 4 microseconds.
+Merge Sort - Size: 25, Case: Reverse Sorted, Time: 23 microseconds.
+Quick Sort - Size: 25, Case: Reverse Sorted, Time: 4 microseconds.
 
-Bubble Sort - Size: 25, Case: Random, Time: 6 microseconds. 
-Insertion Sort - Size: 25, Case: Random, Time: 3 microseconds. 
-Selection Sort - Size: 25, Case: Random, Time: 5 microseconds. 
-Shell Sort - Size: 25, Case: Random, Time: 3 microseconds. 
-Counting Sort - Size: 25, Case: Random, Time: 3419 microseconds. 
-Bucket Sort - Size: 25, Case: Random, Time: 12616 microseconds. 
-Radix Sort - Size: 25, Case: Random, Time: 8 microseconds. 
-Merge Sort - Size: 25, Case: Random, Time: 21 microseconds. 
-Quick Sort - Size: 25, Case: Random, Time: 2 microseconds. 
+Bubble Sort - Size: 25, Case: Random, Time: 5 microseconds.
+Insertion Sort - Size: 25, Case: Random, Time: 2 microseconds.
+Selection Sort - Size: 25, Case: Random, Time: 5 microseconds.
+Shell Sort - Size: 25, Case: Random, Time: 3 microseconds.
+Counting Sort - Size: 25, Case: Random, Time: 2735 microseconds.
+Bucket Sort - Size: 25, Case: Random, Time: 11274 microseconds.
+Radix Sort - Size: 25, Case: Random, Time: 7 microseconds.
+Merge Sort - Size: 25, Case: Random, Time: 19 microseconds.
+Quick Sort - Size: 25, Case: Random, Time: 2 microseconds.
 
 Bubble Sort - Size: 200, Case: Sorted, Time: 1 microseconds.
-Insertion Sort - Size: 200, Case: Sorted, Time: 2 microseconds.
-Selection Sort - Size: 200, Case: Sorted, Time: 94 microseconds.
-Shell Sort - Size: 200, Case: Sorted, Time: 10 microseconds.
-Counting Sort - Size: 200, Case: Sorted, Time: 21 microseconds.
-Bucket Sort - Size: 200, Case: Sorted, Time: 57 microseconds.
-Radix Sort - Size: 200, Case: Sorted, Time: 26 microseconds.
-Merge Sort - Size: 200, Case: Sorted, Time: 171 microseconds.
-Quick Sort - Size: 200, Case: Sorted, Time: 193 microseconds.
+Insertion Sort - Size: 200, Case: Sorted, Time: 1 microseconds.
+Selection Sort - Size: 200, Case: Sorted, Time: 85 microseconds.
+Shell Sort - Size: 200, Case: Sorted, Time: 8 microseconds.
+Counting Sort - Size: 200, Case: Sorted, Time: 23 microseconds.
+Bucket Sort - Size: 200, Case: Sorted, Time: 50 microseconds.
+Radix Sort - Size: 200, Case: Sorted, Time: 24 microseconds.
+Merge Sort - Size: 200, Case: Sorted, Time: 151 microseconds.
+Quick Sort - Size: 200, Case: Sorted, Time: 163 microseconds.
 
-Bubble Sort - Size: 200, Case: Reverse Sorted, Time: 216 microseconds.
-Insertion Sort - Size: 200, Case: Reverse Sorted, Time: 132 microseconds.
-Selection Sort - Size: 200, Case: Reverse Sorted, Time: 105 microseconds.
-Shell Sort - Size: 200, Case: Reverse Sorted, Time: 16 microseconds.
-Counting Sort - Size: 200, Case: Reverse Sorted, Time: 21 microseconds.
-Bucket Sort - Size: 200, Case: Reverse Sorted, Time: 56 microseconds.
-Radix Sort - Size: 200, Case: Reverse Sorted, Time: 26 microseconds.
-Merge Sort - Size: 200, Case: Reverse Sorted, Time: 169 microseconds.
-Quick Sort - Size: 200, Case: Reverse Sorted, Time: 134 microseconds.
+Bubble Sort - Size: 200, Case: Reverse Sorted, Time: 192 microseconds.
+Insertion Sort - Size: 200, Case: Reverse Sorted, Time: 117 microseconds.
+Selection Sort - Size: 200, Case: Reverse Sorted, Time: 92 microseconds.
+Shell Sort - Size: 200, Case: Reverse Sorted, Time: 14 microseconds.
+Counting Sort - Size: 200, Case: Reverse Sorted, Time: 18 microseconds.
+Bucket Sort - Size: 200, Case: Reverse Sorted, Time: 53 microseconds.
+Radix Sort - Size: 200, Case: Reverse Sorted, Time: 23 microseconds.
+Merge Sort - Size: 200, Case: Reverse Sorted, Time: 155 microseconds.
+Quick Sort - Size: 200, Case: Reverse Sorted, Time: 120 microseconds.
 
-Bubble Sort - Size: 200, Case: Random, Time: 218 microseconds.
-Insertion Sort - Size: 200, Case: Random, Time: 67 microseconds.
-Selection Sort - Size: 200, Case: Random, Time: 113 microseconds.
-Shell Sort - Size: 200, Case: Random, Time: 34 microseconds.
-Counting Sort - Size: 200, Case: Random, Time: 2576 microseconds.
-Bucket Sort - Size: 200, Case: Random, Time: 10701 microseconds.
-Radix Sort - Size: 200, Case: Random, Time: 34 microseconds.
-Merge Sort - Size: 200, Case: Random, Time: 149 microseconds.
-Quick Sort - Size: 200, Case: Random, Time: 19 microseconds.
+Bubble Sort - Size: 200, Case: Random, Time: 192 microseconds.
+Insertion Sort - Size: 200, Case: Random, Time: 58 microseconds.
+Selection Sort - Size: 200, Case: Random, Time: 126 microseconds.
+Shell Sort - Size: 200, Case: Random, Time: 28 microseconds.
+Counting Sort - Size: 200, Case: Random, Time: 2372 microseconds.
+Bucket Sort - Size: 200, Case: Random, Time: 10013 microseconds.
+Radix Sort - Size: 200, Case: Random, Time: 31 microseconds.
+Merge Sort - Size: 200, Case: Random, Time: 135 microseconds.
+Quick Sort - Size: 200, Case: Random, Time: 17 microseconds.
 
-Bubble Sort - Size: 10000, Case: Sorted, Time: 38 microseconds.
-Insertion Sort - Size: 10000, Case: Sorted, Time: 64 microseconds.
-Selection Sort - Size: 10000, Case: Sorted, Time: 131997 microseconds.
-Shell Sort - Size: 10000, Case: Sorted, Time: 538 microseconds.
-Counting Sort - Size: 10000, Case: Sorted, Time: 558 microseconds.
-Bucket Sort - Size: 10000, Case: Sorted, Time: 1379 microseconds.
-Radix Sort - Size: 10000, Case: Sorted, Time: 883 microseconds.
-Merge Sort - Size: 10000, Case: Sorted, Time: 5580 microseconds.
-Quick Sort - Size: 10000, Case: Sorted, Time: 249906 microseconds.
+Bubble Sort - Size: 10000, Case: Sorted, Time: 35 microseconds.
+Insertion Sort - Size: 10000, Case: Sorted, Time: 57 microseconds.
+Selection Sort - Size: 10000, Case: Sorted, Time: 129997 microseconds.
+Shell Sort - Size: 10000, Case: Sorted, Time: 501 microseconds.
+Counting Sort - Size: 10000, Case: Sorted, Time: 588 microseconds.
+Bucket Sort - Size: 10000, Case: Sorted, Time: 1416 microseconds.
+Radix Sort - Size: 10000, Case: Sorted, Time: 877 microseconds.
+Merge Sort - Size: 10000, Case: Sorted, Time: 5668 microseconds.
+Quick Sort - Size: 10000, Case: Sorted, Time: 249217 microseconds.
 
-Bubble Sort - Size: 10000, Case: Reverse Sorted, Time: 293583 microseconds.
-Insertion Sort - Size: 10000, Case: Reverse Sorted, Time: 175249 microseconds.
-Selection Sort - Size: 10000, Case: Reverse Sorted, Time: 133202 microseconds.
-Shell Sort - Size: 10000, Case: Reverse Sorted, Time: 809 microseconds.
-Counting Sort - Size: 10000, Case: Reverse Sorted, Time: 546 microseconds.
-Bucket Sort - Size: 10000, Case: Reverse Sorted, Time: 1386 microseconds.
-Radix Sort - Size: 10000, Case: Reverse Sorted, Time: 1092 microseconds.
-Merge Sort - Size: 10000, Case: Reverse Sorted, Time: 5470 microseconds.
-Quick Sort - Size: 10000, Case: Reverse Sorted, Time: 178806 microseconds.
+Bubble Sort - Size: 10000, Case: Reverse Sorted, Time: 294527 microseconds.
+Insertion Sort - Size: 10000, Case: Reverse Sorted, Time: 175537 microseconds.
+Selection Sort - Size: 10000, Case: Reverse Sorted, Time: 134087 microseconds.
+Shell Sort - Size: 10000, Case: Reverse Sorted, Time: 811 microseconds.
+Counting Sort - Size: 10000, Case: Reverse Sorted, Time: 533 microseconds.
+Bucket Sort - Size: 10000, Case: Reverse Sorted, Time: 1406 microseconds.
+Radix Sort - Size: 10000, Case: Reverse Sorted, Time: 1156 microseconds.
+Merge Sort - Size: 10000, Case: Reverse Sorted, Time: 5677 microseconds.
+Quick Sort - Size: 10000, Case: Reverse Sorted, Time: 181102 microseconds.
 
-Bubble Sort - Size: 10000, Case: Random, Time: 356371 microseconds.
-Insertion Sort - Size: 10000, Case: Random, Time: 87469 microseconds.
-Selection Sort - Size: 10000, Case: Random, Time: 125397 microseconds.
-Shell Sort - Size: 10000, Case: Random, Time: 1927 microseconds.
-Counting Sort - Size: 10000, Case: Random, Time: 1857 microseconds.
-Bucket Sort - Size: 10000, Case: Random, Time: 7825 microseconds.
-Radix Sort - Size: 10000, Case: Random, Time: 1113 microseconds.
-Merge Sort - Size: 10000, Case: Random, Time: 6247 microseconds.
-Quick Sort - Size: 10000, Case: Random, Time: 1164 microseconds.
+Bubble Sort - Size: 10000, Case: Random, Time: 358255 microseconds.
+Insertion Sort - Size: 10000, Case: Random, Time: 87441 microseconds.
+Selection Sort - Size: 10000, Case: Random, Time: 126287 microseconds.
+Shell Sort - Size: 10000, Case: Random, Time: 2149 microseconds.
+Counting Sort - Size: 10000, Case: Random, Time: 1809 microseconds.
+Bucket Sort - Size: 10000, Case: Random, Time: 7989 microseconds.
+Radix Sort - Size: 10000, Case: Random, Time: 1193 microseconds.
+Merge Sort - Size: 10000, Case: Random, Time: 6464 microseconds.
+Quick Sort - Size: 10000, Case: Random, Time: 1119 microseconds.
